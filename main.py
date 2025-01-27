@@ -9,6 +9,12 @@ def subtraction(a, b):
     """Function to subtract the second number from the first."""
     return a - b
 
+def division(a, b):
+    """Function to divide the first number by the second."""
+    if b == 0:
+        return "Division by zero is not allowed."
+    return a / b
+
 
 if __name__ == "__main__":
     # Example usage
